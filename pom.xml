@@ -3,6 +3,10 @@
 	<groupId>com.leolm-coding</groupId>
 	<artifactId>qr-reader</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
 		<dependency>
@@ -17,6 +21,7 @@
 			<artifactId>javase</artifactId>
 			<version>3.5.0</version>
 		</dependency>
+		
 
 	</dependencies>
 </project>
